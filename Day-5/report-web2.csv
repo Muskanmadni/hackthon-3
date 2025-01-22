@@ -1,0 +1,14 @@
+Test Case ID,Test Case,Expected Result,Actual Result,Status
+TC-001,Product listing displays correctly.,Products load with images and prices.,Pass,Pass
+TC-002,Add to cart functionality works.,Item is added to cart.,Pass,Pass
+TC-003,User profile updates successfully.,Profile saves new data.,Pass,Pass
+TC-004,Network failure displays error.,"""Connection lost. Try again."" message.",Displays correctly.,Pass
+TC-005,Invalid data entry shows warnings.,Appropriate error message displayed.,Partial validation works.,Partial
+TC-006,Responsive design across devices.,Layout adjusts for mobile screens.,Pass,Pass
+Page load time (home page),Lighthouse,< 3 seconds,3.2 seconds,Needs improvement
+First Contentful Paint (FCP),Google PageSpeed,< 1.5 seconds,2.0 seconds,Needs improvement
+TC-007,Chrome (Desktop),Fully functional.,Pass,Pass
+TC-008,Safari (iPhone),Fully functional with no layout issues.,Image misalignment.,Partial
+TC-009,User searches for a product.,Search results display correctly.,Pass,Pass
+TC-010,Checkout workflow is intuitive.,Users complete purchases smoothly.,Minor usability issue.,Partial
+TC-011,Validate input for injection attacks.,Prevents injection attacks.,Pass,Pass
